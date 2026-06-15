@@ -202,22 +202,3 @@ For the clustered (multi-server) mode, the container can be started using the si
 ```shell
 docker run -d -p 8080:8080 -p 4000:4000 -e EMITTER_LICENSE=[key] -e EMITTER_CLUSTER_SEED=[seed] -e EMITTER_CLUSTER_PASSPHRASE=[name] emitter/server
 ```
-
-## Support, Discussion, and Community
-
-[![Join the chat at https://gitter.im/emitter-io/public](https://badges.gitter.im/emitter-io/public.svg)](https://gitter.im/emitter-io/public?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) 
-
-If you need any help with Emitter Server or any of our client SDKs, please join us at either our [gitter chat](https://gitter.im/emitter-io/public) where most of our team hangs out at or drop us an e-mail at <info@emitter.io>.
-
-Please submit any Emitter bugs, issues, and feature requests to emitter-io>emitter. If there are any security issues, please email info@emitter.io instead of posting an open issue in Github.
-
-
-## Contributing
-
-If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
-
-## Licensing
-
-Copyright (c) 2009-2019 Misakai Ltd. This project is licensed under [Affero General Public License v3](https://github.com/emitter-io/emitter/blob/master/LICENSE).
-
-Emitter offers support contracts and is now also offered via a commercial license. Please contact info@emitter.io for more information.
